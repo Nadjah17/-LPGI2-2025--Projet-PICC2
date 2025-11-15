@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #423020;
+  background: #fafbfc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,17 +10,17 @@ body {
   background: #e9e5e1;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 12px #423020;
+  box-shadow: 0 4px 12px #0c3291;
   width: 400px;
 }
-h1 { text-align: center; color: #132a1b;}
+h1 { text-align: center; color: #0c3291;}
 label { display: block; margin-top: 10px; font-weight: bold; }
 select, button {
   margin-top: 8px; padding: 10px; width: 100%;
   border-radius: 6px; border: 1px solid #ccc;
 }
 button {
-  background:#132a1b; color: white; font-weight: bold; cursor: pointer;
+  background:#0c3291; color: white; font-weight: bold; cursor: pointer;
 }
-button:hover { background: #132a1b;}
+button:hover { background: #0c3291;}
 #output { margin-top: 15px; padding: 12px; background: #f1f5f9; border-radius: 6px; min-height: 50px; }
