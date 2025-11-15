@@ -1,0 +1,56 @@
+menu.title=------ MENU SENMONEY ------
+menu.opt1=1: Solde de mon compte
+menu.opt2=2: Transfert d'argent
+menu.opt3=3: Paiement de facture
+menu.opt4=4: Options
+menu.prompt=Taper le numéro du service choisi :
+
+msg.balance=Le solde de votre compte est 
+msg.codeIncorrect=Code incorrect !
+msg.transfertOk=Transfert réussi ! Nouveau solde : 
+msg.transfertErreur=Solde insuffisant ou numéro invalide.
+msg.auRevoir=Au revoir !
+
+prompt.code=Entrer votre code de sécurité :
+prompt.dest=Entrer le numéro destinataire :
+prompt.montant=Entrer le montant à transférer :
+prompt.retourMenu=Voulez-vous retourner au menu ?
+
+options.title=------ MENU OPTIONS ------
+options.opt1=1: Solde de mes comptes
+options.opt2=2: Cinq dernières transactions
+options.opt3=3: Modification du code secret
+options.opt4=4: Consultation Statut
+options.opt5=5: Inscription
+options.opt6=6: Réinitialiser mon code secret
+options.opt7=7: suiv.
+
+options.reply.transactions=Affichage des 5 dernières transactions...
+options.reply.modifCode=Modification du code secret...
+options.reply.statut=Votre compte est plafonné.\nPour le déplafonner, rendez-vous en agence la plus proche.
+options.reply.inscription=Vous êtes déjà inscrits.
+options.reply.resetCode=Réinitialisation du code secret...
+options.reply.unknown=Option non reconnue.
+
+facture.title=------ MENU FACTURE ------
+facture.opt1=1: Sonatel
+facture.opt2=2: Orange Teranga
+facture.opt3=3: Énergies renouvelables
+facture.opt4=4: SENELEC et WOYOFAL
+facture.opt5=5: CANAL+
+facture.opt6=6: SEN'EAU
+facture.opt7=7: Autres partenaires
+facture.opt8=8: Transport
+facture.opt9=9: Paiements internet
+facture.opt10=10: SONAGED
+facture.opt11=11: Éducation
+facture.promptCode=Entrer le code client :
+facture.promptMontant=Entrer le montant à payer :
+facture.confirm=Paiement en cours...
+
+change.oldPrompt=Entrer l'ancien code secret :
+change.newPrompt=Entrer le nouveau code (4 à 6 chiffres) :
+change.confirmPrompt=Confirmer le nouveau code :
+change.success=Votre code secret a été modifié avec succès.
+change.mismatch=La confirmation ne correspond pas au nouveau code.
+change.weak=Le code doit être composé de 4 à 6 chiffres.

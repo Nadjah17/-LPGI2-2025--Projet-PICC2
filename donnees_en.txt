@@ -1,0 +1,56 @@
+menu.title=------ SENMONEY MENU ------
+menu.opt1=1: Account balance
+menu.opt2=2: Money transfer
+menu.opt3=3: Bill payment
+menu.opt4=4: Options
+menu.prompt=Enter the service number:
+
+msg.balance=Your account balance is 
+msg.codeIncorrect=Incorrect code!
+msg.transfertOk=Transfer successful! New balance: 
+msg.transfertErreur=Insufficient balance or invalid number.
+msg.auRevoir=Goodbye!
+
+prompt.code=Enter your security code:
+prompt.dest=Enter recipient number:
+prompt.montant=Enter amount to transfer:
+prompt.retourMenu=Do you want to return to the menu?
+
+options.title=------ OPTIONS MENU ------
+options.opt1=1: Account balances
+options.opt2=2: Last five transactions
+options.opt3=3: Change security code
+options.opt4=4: Status check
+options.opt5=5: Registration
+options.opt6=6: Reset my security code
+options.opt7=7: next
+
+options.reply.transactions=Showing the last five transactions...
+options.reply.modifCode=Changing your security code...
+options.reply.statut=Your account is capped.\nTo remove the cap, please visit the nearest branch.
+options.reply.inscription=You are already registered.
+options.reply.resetCode=Resetting your security code...
+options.reply.unknown=Unknown option.
+
+facture.title=------ BILL PAYMENT MENU ------
+facture.opt1=1: Sonatel
+facture.opt2=2: Orange Teranga
+facture.opt3=3: Renewable Energies
+facture.opt4=4: SENELEC and WOYOFAL
+facture.opt5=5: CANAL+
+facture.opt6=6: SEN'EAU
+facture.opt7=7: Other partners
+facture.opt8=8: Transport
+facture.opt9=9: Internet payments
+facture.opt10=10: SONAGED
+facture.opt11=11: Education
+facture.promptCode=Enter customer code:
+facture.promptMontant=Enter amount to pay:
+facture.confirm=Payment in progress...
+
+change.oldPrompt=Enter your current PIN:
+change.newPrompt=Enter a new PIN (4 to 6 digits):
+change.confirmPrompt=Confirm the new PIN:
+change.success=Your PIN has been changed successfully.
+change.mismatch=Confirmation does not match the new PIN.
+change.weak=PIN must be 4 to 6 digits.
